@@ -3,7 +3,7 @@ const Groq = require('groq-sdk');
 const groq = new Groq();
 
 const app = express();
-const port = 3000;
+const port = 3001;
 
 app.get('/groq', async (req, res) => {
   try {

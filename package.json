@@ -9,6 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
+    "srv": "node srv/srv.js",
+    "groq": "node srv/groq.js",
     "style": "sass --watch/sass/bootstrap.scss src/css/style1/css"
   },
   "keywords": [],

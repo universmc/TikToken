@@ -31,7 +31,7 @@ const options = {
       // Ajoutez d'autres serveurs ici si nécessaire
     ],
   },
-  apis: ['./routes/*.js'], // Emplacement des fichiers contenant les commentaires de documentation
+  apis: ['./src/js/*.js'], // Emplacement des fichiers contenant les commentaires de documentation
 };
 
 const swaggerSpec = swaggerJsdoc(options);
@@ -46,7 +46,7 @@ app.get('/json/:filename', (req, res) => {
 });
 
 // Servir les fichiers statiques de React
-app.use(express.static(path.join(__dirname, '../frontend/ux')));
+app.use(express.static(path.join(__dirname, 'src/react/')));
 
 // Initialiser l'interface de ligne de commande
 const rl = readline.createInterface({
@@ -68,7 +68,7 @@ async function getUserInput(prompt) {
 
 // Fonction principale pour gérer le flux de dialogue
 async function main() {
-  console.log(`🦉_pi: ${config.assistantIntro || "Bonjour, je suis votre 🦉_pi votre, IA native"}`);
+  console.log(`✨_pi: ${config.assistantIntro || "Bonjour, je suis votre ✨_pi votre, IA native"}`);
 
   let sessionActive = true;
 
@@ -83,12 +83,12 @@ async function main() {
 
     // Répondre avec iaDescription si demandé
     if (userInput.toLowerCase().includes("expertise")) {
-      console.log(`🦉_pi : ${config.iaDescription.expertise}`);
+      console.log(`✨_pi : ${config.iaDescription.expertise}`);
       continue;
     }
 
-    // Exécuter des commandes shell en réponse à la "commande magique"
-    if (userInput.toLowerCase().includes("commande magique")) {
+    // Exécuter des commandes shell en réponse à la "commande Makefile magique"
+    if (userInput.toLowerCase().includes("Makefile magique")) {
       try {
         const output = await executeShellCommand(config.magicCommand);
         console.log(`Résultat de la commande: ${output}`);
@@ -104,7 +104,7 @@ async function main() {
         messages: [
           {
             role: "system",
-            content: config.systemContent || "🦉_pi _ System is ready."
+            content: config.systemContent || "✨_pi _ System is ready."
           },
           {
             role: "user",
@@ -135,4 +135,4 @@ main().catch(console.error);
 
 // Démarrage du serveur Express
 const PORT = 3010;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server ✨.ia running on port ${PORT}`));
