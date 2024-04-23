@@ -1,0 +1,38 @@
+{
+    "project": {
+      "name": "Game Development Project",
+      "description": "A game development project for the MC universe.",
+      "start_date": "2023-04-01T00:00:00Z",
+      "duration": "6 months",
+      "end_date": "2023-09-30T23:59:59Z",
+      "timestamp": 1677868800,
+      "members": [
+        {
+          "name": "Member 1",
+          "role": "Game Developer",
+          "skills": ["Unity", "C#", "Blender"]
+        },
+        {
+          "name": "Member 2",
+          "role": "Sound Designer",
+          "skills": ["Pro Tools", "SFX", "Fmod"]
+        }
+      ],
+      "tasks": [
+        {
+          "name": "Task 1",
+          "description": "Create the game design document",
+          "assignee": "Member 1",
+          "due_date": "2023-04-15T23:59:59Z",
+          "status": "Not Started"
+        },
+        {
+          "name": "Task 2",
+          "description": "Create the game audio",
+          "assignee": "Member 2",
+          "due_date": "2023-06-01T23:59:59Z",
+          "status": "Not Started"
+        }
+      ]
+    }
+  }

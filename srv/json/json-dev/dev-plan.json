@@ -1,0 +1,28 @@
+{
+    "environmentSetup": {
+      "server": "Node.js and Express",
+      "jsonDirectory": ["howto-DevOps.json", "style.json", "main.json"]
+    },
+    "frontendStructure": {
+      "html": "index.html",
+      "css": "style.css",
+      "javascript": "style.js",
+      "scss": "style.scss"
+    },
+    "swaggerIntegration": {
+      "endpoint": "http://localhost:3000/json/howto-DevOps.json"
+    },
+    "scripting": {
+      "coreLogic": "script.js",
+      "dataLoading": ["howto-DevOps.json", "style.json", "main.json"]
+    },
+    "documentation": {
+      "mainFiles": ["Main.js", "Main.css", "Main.json"],
+      "documentationFormat": "Markdown (.md)"
+    },
+    "testingAndDeployment": {
+      "localTesting": true,
+      "deployment": "Appropriate server or hosting platform"
+    }
+  }
+  

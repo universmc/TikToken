@@ -1,0 +1,40 @@
+[
+    {
+      "type": "default",
+      "text": "Étape 1 - Initialisation du projet",
+      "date": "2023-01-01",
+      "element": "📦",
+      "title": "Initialisation",
+      "children": [
+        {
+          "text": "Initialisation du projet",
+          "date": "2023-01-01",
+          "icon": "📦"
+        },
+        {
+          "text": "Création de server.js",
+          "date": "2023-01-01",
+          "icon": "📝"
+        }
+      ]
+    },
+    {
+      "type": "default",
+      "text": "Étape 2 - Configuration du backend",
+      "date": "2023-01-02",
+      "element": "🌐",
+      "title": "Configuration",
+      "children": [
+        {
+          "text": "Installation de Express.js",
+          "date": "2023-01-02",
+          "icon": "🚀"
+        },
+        {
+          "text": "Configuration de la documentation d'API avec Swagger",
+          "date": "2023-01-02",
+          "icon": "📜"
+        }
+      ]
+    }
+  ]

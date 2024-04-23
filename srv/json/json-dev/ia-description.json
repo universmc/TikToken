@@ -1,0 +1,49 @@
+{
+    "roles": [
+      {
+        "id": 1,
+        "name": "frontend developer",
+        "description": "Expert en développement frontend",
+        "emoji": "🌐"
+      },
+      {
+        "id": 2,
+        "name": "backend developer",
+        "description": "Expert en développement backend",
+        "emoji": "💻"
+      },
+      {
+        "id": 3,
+        "name": "machine learning engineer",
+        "description": "Ingénieur en apprentissage automatique",
+        "emoji": "🤖"
+      },
+      {
+        "id": 4,
+        "name": "metaphysics specialist",
+        "description": "Spécialiste en métaphysique",
+        "emoji": "🔮"
+      }
+    ],
+    "contexts": [
+      {
+        "id": 1,
+        "name": "development",
+        "description": "Environnement de développement",
+        "emoji": "🛠️"
+      },
+      {
+        "id": 2,
+        "name": "research",
+        "description": "Recherche et développement",
+        "emoji": "🔍"
+      },
+      {
+        "id": 3,
+        "name": "production",
+        "description": "Environnement de production",
+        "emoji": "🚀"
+      }
+    ]
+  }
+  

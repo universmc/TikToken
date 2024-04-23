@@ -1,0 +1,17 @@
+{
+    "sections": [
+      {
+        "type": "article",
+        "title": "Titre de l'article 1",
+        "content": "Contenu de l'article 1...",
+        "imageUrl": "chemin/vers/image1.jpg"
+      },
+      {
+        "type": "div",
+        "title": "Titre du Div",
+        "content": "Contenu du Div...",
+        "imageUrl": "chemin/vers/image2.jpg"
+      }
+    ]
+  }
+  

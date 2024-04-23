@@ -1,0 +1,29 @@
+{
+    "progressStatus": [
+      {
+        "promptId": 1,
+        "stepStatus": [
+          { "stepNumber": 1, "status": "à faire" },
+          { "stepNumber": 2, "status": "en cours" },
+          { "stepNumber": 3, "status": "Terminer" }
+        ]
+      },
+      {
+        "promptId": 3,
+        "stepStatus": [
+          { "stepNumber": 1, "status": "à faire" },
+          { "stepNumber": 2, "status": "en cours" },
+          { "stepNumber": 3, "status": "Terminer" }
+        ]
+      },
+      {
+        "promptId": 3,
+        "stepStatus": [
+          { "stepNumber": 1, "status": "à faire" },
+          { "stepNumber": 2, "status": "en cours" },
+          { "stepNumber": 3, "status": "Terminer" }
+        ]
+      }
+    ]
+  }
+  

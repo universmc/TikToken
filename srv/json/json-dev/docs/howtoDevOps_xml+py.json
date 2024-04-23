@@ -1,0 +1,43 @@
+{
+    "developmentProcess": {
+        "step1": {
+            "description": "Analyse de l'image et définition sémantique des composants UI.",
+            "tasks": [
+                "Examinez l'image pour identifier les composants UI.",
+                "Définissez les balises HTML sémantiques pour chaque composant.",
+                "Créez un zonage qui divise l'image en régions fonctionnelles."
+            ]
+        },
+        "step2": {
+            "description": "Élaboration de la palette graphique et des éléments de style.",
+            "tasks": [
+                "Extrayez une palette de couleurs de l'image.",
+                "Définissez les styles pour les textes, boutons et autres éléments UI.",
+                "Créez des classes CSS pour chaque élément UI."
+            ]
+        },
+        "step3": {
+            "description": "Intégration HTML et CSS avec design réactif.",
+            "tasks": [
+                "Créez une structure HTML avec des balises sémantiques.",
+                "Stylisez la structure HTML avec le fichier style.css.",
+                "Assurez-vous que le design est réactif avec des media queries."
+            ]
+        },
+        "step4": {
+            "description": "Boucle d'intégration des composants avec interactivité.",
+            "tasks": [
+                "Utilisez une boucle ForEach pour intégrer les composants UI dans le DOM.",
+                "Attribuez des classes CSS dynamiquement.",
+                "Ajoutez de l'interactivité avec des écouteurs d'événements."
+            ]
+        },
+        "step5": {
+            "description": "Génération de l'interface basée sur le prompt initial.",
+            "tasks": [
+                "Prenez en compte le prompt initial pour la génération.",
+                "Utilisez des outils de génération assistée par IA si disponible."
+            ]
+        }
+    }
+}

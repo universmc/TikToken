@@ -1,0 +1,83 @@
+{
+    "backgroundImage": {
+        "src": "chemin/vers/l'image/g\u00e9n\u00e9r\u00e9e.jpeg",
+        "description": "Image de fond g\u00e9n\u00e9r\u00e9e \u00e0 partir du prompt pour l'interface de d\u00e9veloppement web.",
+        "prompt": "Interface de D\u00e9veloppement Web et Programmation Generate a high-resolution, multi-layered image integrating web development elements, such .png"
+    },
+    "layouts": [
+        {
+            "id": "main-navigation",
+            "type": "navigation",
+            "elements": [
+                {
+                    "type": "link",
+                    "text": "Accueil",
+                    "url": "/"
+                },
+                {
+                    "type": "link",
+                    "text": "Documentation",
+                    "url": "/documentation"
+                },
+                {
+                    "type": "link",
+                    "text": "API",
+                    "url": "/api"
+                }
+            ]
+        },
+        {
+            "id": "main-content",
+            "type": "content",
+            "elements": [
+                {
+                    "type": "header",
+                    "text": "D\u00e9couvrez nos Tutoriels et Cours"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Approfondissez vos connaissances en d\u00e9veloppement web et IA avec nos ressources p\u00e9dagogiques."
+                }
+            ]
+        },
+        {
+            "id": "interactive-widgets",
+            "type": "widgets",
+            "elements": [
+                {
+                    "type": "search-bar",
+                    "placeholder": "Rechercher dans les tutoriels..."
+                },
+                {
+                    "type": "code-snippet",
+                    "language": "JavaScript",
+                    "content": "console.log('Hello, world!');"
+                }
+            ]
+        }
+    ],
+    "charteGraphique": {
+        "colors": {
+            "primary": "#2952a3",
+            "secondary": "#2a9d8f",
+            "background": "#f4f4f4",
+            "text": "#333333"
+        },
+        "typography": {
+            "headers": "Roboto, sans-serif",
+            "mainText": "Open Sans, sans-serif",
+            "code": "Source Code Pro, monospace"
+        },
+        "componentsStyle": {
+            "buttons": {
+                "backgroundColor": "#2952a3",
+                "color": "#ffffff"
+            },
+            "inputs": {
+                "borderColor": "#dcdcdc",
+                "backgroundColor": "#ffffff",
+                "color": "#333333"
+            }
+        }
+    }
+}

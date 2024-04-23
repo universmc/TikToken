@@ -1,0 +1,44 @@
+{
+    "doctype": "html",
+    "html": {
+      "lang": "en",
+      "head": {
+        "meta": [
+          {
+            "charset": "UTF-8"
+          },
+          {
+            "name": "viewport",
+            "content": "width=device-width, initial-scale=1.0"
+          },
+          {
+            "title": "Laboratory Code IA"
+          }
+        ]
+      },
+      "body": {
+        "header": {
+          "h1": "Bases des Snippets en JSON"
+        },
+        "main": {
+          "section": [
+            {
+              "h2": "Apprendre la syntaxe JSON",
+              "p": "..."
+            },
+            {
+              "h2": "Comprendre l'utilité des snippets de code",
+              "p": "..."
+            },
+            {
+              "h2": "Étudier des exemples de snippets JSON simples",
+              "p": "..."
+            }
+          ]
+        },
+        "footer": {
+          "p": "&copy; 2023 Laboratory Code IA"
+        }
+      }
+    }
+  }

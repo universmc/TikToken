@@ -1,0 +1,38 @@
+{
+    "characters": [
+    {
+    "name": "Pi",
+    "role": "mainAI",
+    "model": "mixtral-8x7b-32768",
+    "parameters": {
+    "temperature": 0.5,
+    "max_tokens": 1024,
+    "top_p": 1,
+    "stop": null
+    }
+    },
+    {
+    "name": "Protagoniste",
+    "role": "human",
+    "model": "mixtral-8x7b-32768",
+    "parameters": {
+    "temperature": 0.7,
+    "max_tokens": 512,
+    "top_p": 0.8,
+    "stop": "[end]"
+    }
+    },
+    {
+    "name": "Équipage",
+    "role": "supportingAI",
+    "model": "mixtral-8x7b-32768",
+    "parameters": {
+    "temperature": 0.6,
+    "max_tokens": 256,
+    "top_p": 0.9,
+    "stop": "[end]"
+    }
+    }
+    ]
+    }
+    

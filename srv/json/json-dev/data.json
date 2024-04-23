@@ -1,0 +1,50 @@
+{
+    "apiInfo": {
+      "title": "Mon API",
+      "version": "1.0.0",
+      "description": "Une description de l'API"
+    },
+    "endpoints": [
+      {
+        "path": "/users",
+        "method": "GET",
+        "description": "Récupère une liste d'utilisateurs"
+      },
+      {
+        "path": "/users",
+        "method": "POST",
+        "description": "Crée un nouvel utilisateur"
+      }
+    ],
+    "responseModels": {
+      "User": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "name": { "type": "string" }
+        }
+      }
+    },
+    "parameters": {
+      "userId": {
+        "in": "path",
+        "name": "userId",
+        "required": true,
+        "description": "Identifiant unique de l'utilisateur",
+        "type": "integer"
+      }
+    },
+    "responses": {
+      "200": {
+        "description": "Opération réussie",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/User"
+            }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,15 @@
+[
+    {
+    "name": "mixtral-8x7b-32768",
+    "prompt": "Brainstorming sur l'amélioration de l'expérience utilisateur dans l'application web univers-mc.cloud en HTML, CSS et JavaScript."
+    },
+    {
+    "name": "mixtral-8x7b-32768",
+    "prompt": "Développer de nouvelles fonctionnalités pour le back-end de univers-mc.cloud en PHP, SQL et Node.js."
+    },
+    {
+    "name": "mixtral-8x7b-32768",
+    "prompt": "Idées d'intégration d'API REST dans l'application Electron univers-mc.cloud en utilisant Electron, Solidity et Draw.io."
+    }
+    ]
+    

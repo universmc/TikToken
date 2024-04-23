@@ -1,0 +1,14 @@
+{
+    "dynamicContent": [
+        {
+            "title": "Titre Section Dynamique 1",
+            "content": "Contenu de la Section Dynamique 1"
+        }
+    ],
+    "styleContent": [
+        {
+            "title": "Titre Style 1",
+            "content": "Contenu du Style 1"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "project": {
+      "name": "Web Development Project",
+      "description": "A web development project for the MC universe.",
+      "start_date": "2023-01-01T00:00:00Z",
+      "duration": "3 months",
+      "end_date": "2023-03-31T23:59:59Z",
+      "timestamp": 1672531200,
+      "members": [
+        {
+          "name": "Mike",
+          "role": "Developer",
+          "skills": ["HTML", "CSS", "JavaScript"]
+        },
+        {
+          "name": "qrooq",
+          "role": "Designer IA",
+          "skills": ["UI/UX Design", "Graphic Design"]
+        }
+      ],
+      "tasks": [
+        {
+          "name": "Task 1",
+          "description": "Create the project plan",
+          "assignee": "Member 1",
+          "due_date": "2023-01-07T23:59:59Z",
+          "status": "In Progress"
+        },
+        {
+          "name": "Task 2",
+          "description": "Design the layout",
+          "assignee": "Member 2",
+          "due_date": "2023-01-15T23:59:59Z",
+          "status": "Not Started"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,74 @@
+
+    {
+      "title: 1. Comprendre les Bases des Snippets en JSON"
+      "items": [
+        "Apprendre la syntaxe JSON.",
+        "Comprendre l'utilité des snippets de code.",
+        "Étudier des exemples de snippets JSON simples."
+      ]
+    },
+    {
+      "title: 2. Maîtriser l'Éditeur VI"
+      "items": [
+        "Apprendre les commandes de base de VI.",
+        "Pratiquer la création et la modification de fichiers en VI.",
+        "Explorer les fonctionnalités avancées de VI pour la programmation."
+      ]
+    },
+    {
+      "title: 3. Installation et Configuration d'Emmet"
+      "items": [
+        "Installer Emmet sur votre éditeur de choix (par exemple, Visual Studio Code).",
+        "Configurer Emmet pour l'optimisation de snippets JSON."
+      ]
+    },
+    {
+      "title: 4. Apprentissage d'Emmet pour le Développement Web"
+      "items": [
+        "Se familiariser avec les raccourcis Emmet pour HTML/CSS.",
+        "Pratiquer l'utilisation d'Emmet dans des projets web simples."
+      ]
+    },
+    {
+      "title: 5. Personnaliser Emmet pour JSON"
+      "items": [
+        "Créer des raccourcis Emmet personnalisés pour JSON.",
+        "Expérimenter avec ces raccourcis pour générer rapidement des structures JSON."
+      ]
+    },
+    {
+      "title: 6. Utilisation Pratique dans l'Éditeur Textera (Visual Studio Code)"
+      "items": [
+        "Pratiquer la création de snippets JSON dans Visual Studio Code.",
+        "Intégrer l'utilisation d'Emmet pour accélérer ce processus."
+      ]
+    },
+    {
+      "title: 7. Application dans des Scénarios de DataLoader PyTorch"
+      "items": [
+        "Utiliser les snippets JSON créés pour configurer un DataLoader PyTorch.",
+        "Explorer comment ces snippets peuvent être utilisés dans l'apprentissage machine et l'IA."
+      ]
+    },
+    {
+      "title: 8. Transfert des Compétences vers l'Éditeur VI"
+      "items": 
+        "Adapter les techniques apprises dans Textera pour l'éditeur VI.",
+        "Développer une méthodologie pour gérer efficacement les snippets JSON en VI."
+      ]
+    },
+    {
+      "title: 9. Projets Pratiques et Exercices"
+      "items": [
+        "Réaliser des projets simples pour renforcer les compétences acquises.",
+        "Créer des snippets JSON pour différents scénarios d'IA et de machine learning."
+      ]
+    },
+    {
+      "title: 10. Ressources Complémentaires"
+      "items": [
+        "Chercher des tutoriels avancés sur Emmet, JSON, VI et DataLoader PyTorch.",
+        "Participer à des forums et communautés en ligne pour des conseils et du support."
+      ]
+    }
+  
