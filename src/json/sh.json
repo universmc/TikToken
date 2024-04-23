@@ -1,0 +1,55 @@
+{
+    "script": [
+    {
+    "id": "scene1",
+    "run": true,
+    "time": "0-15 seconds",
+    "timestamp": 1654481600,
+    "audioFile": "audio_scene1.mp3",
+    "videoFile": "video_scene1.mp4",
+    "textFile": "text_scene1.txt",
+    "description": "Presentation of the character with AR glasses and drone virtual control device."
+    },
+    {
+    "id": "scene2",
+    "run": true,
+    "time": "16-25 seconds",
+    "timestamp": 1654481610,
+    "audioFile": "audio_scene2.mp3",
+    "videoFile": "video_scene2.mp4",
+    "textFile": "text_scene2.txt",
+    "description": "The character activates the AR glasses and the virtual drone appears."
+    },
+    {
+    "id": "scene3",
+    "run": true,
+    "time": "26-35 seconds",
+    "timestamp": 1654481620,
+    "audioFile": "audio_scene3.mp3",
+    "videoFile": "video_scene3.mp4",
+    "textFile": "text_scene3.txt",
+    "description": "The character controls the virtual drone with the AR glasses to perform a specific task (e.g., inspecting a structure)."
+    },
+    {
+    "id": "scene4",
+    "run": true,
+    "time": "36-55 seconds",
+    "timestamp": 1654481630,
+    "audioFile": "audio_scene4.mp3",
+    "videoFile": "video_scene4.mp4",
+    "textFile": "text_scene4.txt",
+    "description": "Show how the character uses the virtual drone to accomplish the task with impressive visual effects thanks to the AR glasses."
+    },
+    {
+    "id": "scene5",
+    "run": true,
+    "time": "56-68 seconds",
+    "timestamp": 1654481640,
+    "audioFile": "audio_scene5.mp3",
+    "videoFile": "video_scene5.mp4",
+    "textFile": "text_scene5.txt",
+    "description": "The character succeeds in his task and winks at the camera, followed by the appearance of a message encouraging viewers to discover AR and virtual drone technologies."
+    }
+    ]
+    }
+    
