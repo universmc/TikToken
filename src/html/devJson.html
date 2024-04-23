@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eHN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="src/json/dicoEmojis.js"></script>
+    <title>Mission TikTok : Création de vidéos avec IA</title>
+</head>
+
+<body>
+    <header class="bg-primary text-white p-3">
+        <div class="container">
+            <h1 class="display-4">Bienvenue dans la mission TikTok !</h1>
+            <p>Intégrez la plus grande communauté #IA des transformations numériques dans ia.univers-mc.cloud, un secteur de mobilités et devenez un #video_Maker.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="my-5">
+            <h2 class="mb-3">Présentation du projet TikTok - Drones AR avec Pi</h2>
+            <p>Ce projet consiste à créer une série de vidéos TikTok de 68 secondes chacune, présentant un personnage utilisant des lunettes AR et un drone virtuel. Le script comporte cinq scènes et inclut des fichiers multimédias associés.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 id="scene1" class="mt-4">Scène 1</h3>
+                    <p id="scene1-description"></p>
+                    <p><audio id="scene1-audio" controls></audio></p>
+                    <p><video id="scene1-video" width="100%" controls></video></p>
+                    <p><span id="scene1-text"></span></p>
+                </div>
+                <div class="col-md-6">
+                    <!-- Scènes 2 à 5 -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light p-3">
+        <div class="container">
+            <p class="text-center">Réalisé par la team IA Univers-MC</p>
+        </div>
+    </footer>
+
+    <script>
+        // Chargement des données JSON et affichage des scènes
+        fetch('src/json/script.json')
+            .then(response => response.json())
+            .then(data => {
+                const scenes = data.scenes;
+
+                scenes.forEach(scene => {
+                    const sceneElement = document.getElementById(scene.id);
+                    const sceneDescription = sceneElement.querySelector('p:nth-child(2)');
+                    const sceneAudio = sceneElement.querySelector('audio');
+                    const sceneVideo = sceneElement.querySelector('video');
+                    const sceneText = sceneElement.querySelector('span');
+
+                    sceneDescription.textContent = scene.description;
+                    sceneAudio.src = `media/${scene.audioFile}`;
+                    sceneVideo.src = `media/${scene.videoFile}`;
+                    sceneText.textContent = importDicoEmojis(scene.textFile);
+                });
+            });
+    </script>
+</body>
+
+</html>
