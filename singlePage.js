@@ -47,7 +47,7 @@ async function main() {
         
             // Set a user message for the assistant to respond to.
             {
-                role: "user",
+                role: "system",
                 content: "'index.html'"
             }
         ],
@@ -62,7 +62,7 @@ async function main() {
         temperature: 0.5,
         // The maximum number of tokens to generate. Requests can use up to
         // 2048 tokens shared between prompt and completion.
-        max_tokens: 1024,
+        max_tokens: 4096,
         // Controls diversity via nucleus sampling: 0.5 means half of all
         // likelihood-weighted options are considered.
         top_p: 1,
